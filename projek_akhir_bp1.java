@@ -3,14 +3,16 @@ import java.util.Scanner;
 public class projek_akhir_bp1 {
 
     // Data menu dan harga 
-    static String[] kategori = { "Makanan", "Minuman" };
+    static String[] kategori = { "Makanan", "Camilan", "Minuman" };
     static String[][] menu = {
+            { "Mie Spagethi", "Nasi Bungkus", "Nasi Kuning" },
             { "Tahu Gejrot", "Tahu Petis","Cireng" },
-            { "Es Teh", "Es Jeruk" }
+            { "Es Teh", "Es Jeruk", "Ronde" },
     };
     static int[][] harga = {
-            { 15000, 8000, 10000 },
-            { 4000, 5000 }
+            { 12000, 10000, 12000 },
+            { 10000, 10000, 10000 },
+            { 4000, 5000, 8000 }
     };
 
     // Variabel untuk menyimpan total pemasukan
